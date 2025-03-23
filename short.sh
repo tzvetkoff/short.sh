@@ -155,7 +155,7 @@ SERVICE='is.gd'
 # Load config
 #
 
-# shellcheck disable=SC1091
+# shellcheck disable=1091
 [[ -f "${HOME}/.config/short.sh/config" ]] && source "${HOME}/.config/short.sh/config"
 
 
